@@ -1,0 +1,14 @@
+# Follow these steps on Debian (the server).
+
+1. run sh script.sh
+2. ifconfig
+2.1. copy ipv4 address
+3. tty
+3.1. copy /dev/pts/#
+5. tty the other machine (mac)
+
+# Follow these steps on Mac (the client).
+
+4. connect via "ssh <username>@<ip-address>"
+4.1. should fail, because port number has changed
+4.2. run "ssh <username>@<ip-address> -p <port-number>"
